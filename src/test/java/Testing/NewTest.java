@@ -16,7 +16,7 @@ public class NewTest {
 	@BeforeMethod
 	  public void beforeMethod() {
 		WebDriverManager.chromedriver().setup();
-		driver.get(null);
+		driver.get("");
 	  }
 	
   @Test

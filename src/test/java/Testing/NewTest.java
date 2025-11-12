@@ -1,6 +1,9 @@
 package Testing;
 
 import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,6 +15,8 @@ public class NewTest {
 	
 	@BeforeMethod
 	  public void beforeMethod() {
+		WebDriverManager.chromedriver().setup();
+		
 	  }
 	
   @Test

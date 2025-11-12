@@ -7,6 +7,10 @@ import org.testng.annotations.AfterMethod;
 public class NewTest {
   @Test
   public void f() {
+	  
+	  
+	  
+	  
   }
   @BeforeMethod
   public void beforeMethod() {

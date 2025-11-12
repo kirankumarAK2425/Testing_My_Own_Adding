@@ -22,7 +22,7 @@ public class NewTest {
   @Test
   public void f() {
 	  
-	  driver.get(null);
+	  driver.get("");
 	  
 	  
   }

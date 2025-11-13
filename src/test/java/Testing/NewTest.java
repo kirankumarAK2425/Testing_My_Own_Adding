@@ -25,7 +25,7 @@ public class NewTest {
 	  
 	  driver.get("");
 	  driver.findElement(By.xpath(null));
-	  driver.findElement(By.xpath(null));+
+	  driver.findElement(By.xpath(null));
 	  driver.findElement(By.xpath(null));
 	  driver.findElement(By.xpath(null));
 	  
